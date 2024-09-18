@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Simone.dev'
+theme = 'archie'
+
+
+[params]
+author = "Simone Di Maulo"
+mode="toggle" # color-mode → light,dark,toggle or auto
+useCDN=true # don't use CDNs for fonts and icons, instead serve them locally.
+subtitle = "I like code, architecture and help developers work better"
+mathjax = false # enable MathJax support
+katex = false # enable KaTeX support
+customcss = ["/css/custom.css"]
