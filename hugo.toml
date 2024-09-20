@@ -1,4 +1,4 @@
-baseURL = 'https://simoat.work'
+baseURL = 'https://simoat.work/'
 languageCode = 'en-us'
 title = 'Simoneat.Work'
 theme = 'archie'
