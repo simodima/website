@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://simodima.github.io/website'
 languageCode = 'en-us'
-title = 'Simone.dev'
+title = 'Simoneat.Work'
 theme = 'archie'
 
 
