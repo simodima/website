@@ -11,7 +11,7 @@
 html {
   color: #232333;
   font-family: 'Roboto Mono', monospace;
-  font-size: 15px;
+  font-size: 19px;
   line-height: 1.6em;
 }
 
@@ -28,12 +28,17 @@ a:hover {
   padding: 0 1.5em 1.5em 1.5em;
   margin: 2em 0 2em 0;
 }
+
 .list-item .description {
   padding: 1.75em;
 }
+
 .list-item .readmore {
   display: inline-block;
   margin: 0;
   padding: 0.3em 0.8em;
 }
 
+pre code {
+  font-size: 90%;
+}
