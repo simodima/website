@@ -13,3 +13,9 @@ subtitle = "I like code, architecture and help developers work better"
 mathjax = false # enable MathJax support
 katex = false # enable KaTeX support
 customcss = ["/css/custom.css"]
+
+# Social
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/simodima"
