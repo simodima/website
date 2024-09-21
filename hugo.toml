@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Simoneat.Work'
 theme = 'archie'
 
+googleAnalytics = 'G-N70242LL82'
 
 [params]
 author = "Simone Di Maulo"
