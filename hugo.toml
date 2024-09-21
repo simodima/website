@@ -9,7 +9,7 @@ googleAnalytics = 'G-N70242LL82'
 author = "Simone Di Maulo"
 mode="toggle" # color-mode → light,dark,toggle or auto
 useCDN=true # don't use CDNs for fonts and icons, instead serve them locally.
-subtitle = "I like code, architecture and help developers work better"
+subtitle = "I like code, sw architecture and helping developers work better"
 mathjax = false # enable MathJax support
 katex = false # enable KaTeX support
 customcss = ["/css/custom.css"]
@@ -19,3 +19,9 @@ customcss = ["/css/custom.css"]
 name = "GitHub"
 icon = "github"
 url = "https://github.com/simodima"
+
+# Main menu Items
+[[menu.main]]
+name = "home"
+url = "/"
+weight = 1
