@@ -1,5 +1,5 @@
 +++
-title = 'How to determine the right microservice size'
+title = 'Microservices 101: balancing the size'
 date = 2024-09-20T15:25:11+02:00
 draft = false
 +++
