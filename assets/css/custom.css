@@ -10,9 +10,22 @@
 
 html {
   color: #232333;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Heebo';
+  font-weight: 400;
   font-size: 19px;
   line-height: 1.6em;
+}
+
+p {
+
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Signika, sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+    --tw-text-opacity: 1;
 }
 
 a:hover {
@@ -22,23 +35,41 @@ a:hover {
 
 /* list box */
 .list-item {
-  border: 1px solid var(--bordercl);
-  border-radius: 0.2em;
   
-  padding: 0 1.5em 1.5em 1.5em;
+  padding: 0 0 1.5em 0;
   margin: 2em 0 2em 0;
 }
 
-.list-item .description {
-  padding: 1.75em;
+/* Posts */
+article .title {
+  margin-bottom: 0;
 }
 
+time, .meta {
+  font-size: 15px;
+}
+
+{{/* .list-item .description {
+  padding: 1.75em;
+} */}}
+
 .list-item .readmore {
+  width: 100%;
+  text-align: right;
   display: inline-block;
   margin: 0;
-  padding: 0.3em 0.8em;
+  padding: 0.3em 0;
+  border-bottom: 1px solid var(--maincolor);
 }
 
 pre code {
   font-size: 90%;
+}
+
+.main {
+    font-family: Signika, sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+    --tw-text-opacity: 1;
+    color: rgb(4 4 4 / var(--tw-text-opacity));
 }

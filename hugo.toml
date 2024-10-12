@@ -8,11 +8,11 @@ googleAnalytics = 'G-N70242LL82'
 [params]
 author = "Simone Di Maulo"
 mode="toggle" # color-mode → light,dark,toggle or auto
-useCDN=true # don't use CDNs for fonts and icons, instead serve them locally.
+useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
 subtitle = "I like code, sw architecture and helping developers work better"
 mathjax = false # enable MathJax support
 katex = false # enable KaTeX support
-customcss = ["/css/custom.css"]
+customcss = ["/css/custom.css", '/css/fonts.css']
 
 # Social
 [[params.social]]
