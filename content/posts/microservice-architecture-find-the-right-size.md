@@ -1,8 +1,11 @@
-+++
-title = 'Microservices 101: balancing the size'
-date = 2024-09-20T15:25:11+02:00
-draft = false
-+++
+---
+title: 'Microservices 101: balancing the size'
+date: 2024-09-20T15:25:11+02:00
+draft: false
+tags:
+   - software architecture
+   - microservices
+---
 
 ## Balancing the size of Microservices
 
@@ -14,16 +17,15 @@ One of the most common challenges developers and architects face when designing 
 Designing microservice-based systems involves a constant balancing act, as architectural choices are influenced by evolving requirements, performance considerations, and security concerns. Rather than making static decisions, architects must continuously re-evaluate and adjust their designs to adapt the system to the new requirements.
 
 These factors can be divided into the following categories:
-
 1. Technical factors
-    1. Performance & Scalability
-    2. Security
+    - Performance & Scalability
+    - Security
 2. Domain factors
-    1. Code Change Frequency
-    2. Multi-purpose services
+    - Code Change Frequency
+    - Multi-purpose services
 3. Developer experience factors
-    1. Over fragmentation
-    2. Optimize for the development process
+    - Over fragmentation
+    - Optimize for the development process
 
 ## Technical factors
 

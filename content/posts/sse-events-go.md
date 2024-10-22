@@ -1,8 +1,12 @@
-+++
-title = 'Deliver notifications in the user browser'
-date = 2021-11-12T15:25:11+02:00
-draft = false
-+++
+---
+title: 'Deliver notifications in the user browser'
+date: 2021-11-12T15:25:11+02:00
+draft: false
+tags:
+   - events
+   - server-sent-events 
+   - golang
+---
 
 Delivering real-time notifications in the user browser makes your application way more engaging and let the user quickly react to the events happening in the product.<!--more-->
 
