@@ -28,9 +28,9 @@ Every set of these entities represents a part of the domain model in the API lay
 
 As the world evolves, the domain model evolves too. We should adopt a process to easily support changing requirements. This way, our team won't be slowed down by the new API and its maintenance. This often means evolving API schemas and changing their behaviour, but also means deprecating old versions and creating new ones. All this must ensure compatibility and minimal disruption to service consumers.
 
-## API Maturity process
+## API Maturity levels
 
-The API maturity process is the result of tools, processes, and best practices that a team can agree on and apply. The process can be more or less strict. It depends on the project stage and the maturity of the engineering culture.
+The API maturity levels is the result of tools, processes, and best practices that a team can agree on and apply on their API development. The processes can be more or less strict. It depends on the project stage and the maturity of the engineering culture.
 This is a four-level strength management process that ranges from 0, to an highly structured and robust API governance.
 As the system grows more sophisticated, so will the team. They will need to advance through the maturity levels to operate with ease.
 
