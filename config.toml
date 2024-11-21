@@ -9,6 +9,13 @@ title = "SIMOAT.WORK"
     extended = true
     min = "0.134.0"
 
+[outputs]
+  home = ['html', 'rss']
+  section = ['html']
+  taxonomy = ['html']
+  term = ['html']
+
+
 [params]
   google_analytics_id = "G-N70242LL82"
   twitter_handle = "@toretto460"
@@ -33,6 +40,9 @@ title = "SIMOAT.WORK"
   fontFamilyHeading = "Poppins"
   fontFamilyParagraph = "Poppins"
   fontFamilyMonospace = "monospace"
+  [params.author]
+    email = 'toretto460@gmail.com'
+    name = 'Simone Di Maulo'
 
 # markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
 [markup]
