@@ -88,7 +88,7 @@ At this stage, the team starts using strict API contracts. They will use standar
 
 Implementing a strict API contract is not free of overhead, especially for brownfield projects.
 Adopting a formal API definition on legacy projects requires some work. The team must write all the specs for the currently implemented API, that can be a very long work if they have a large API surface.
-To mitigate that and start adopting best practices, They can also choose to start writing specs for new implementations and then then fill in the old API definition over time.
+To mitigate that and start adopting best practices, They can also choose to start writing specs for new implementations and then fill in the old API definition over time.
 
 On the other hand, adopting a contract-first approach to a new project can have some overhead too, but it has also some nice side effects and the benefits far outweigh the cost.
 Having an API contract:
